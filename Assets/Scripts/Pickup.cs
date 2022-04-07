@@ -20,13 +20,13 @@ public class Pickup : MonoBehaviour
             {
                 if (hit.transform.tag == "Apple"  && PlayerValues.Apples < 6)
                 {
-                Destroy(hit.transform.gameObject); // niszczy japko kture raycast udeza (hehe specjalnie tak z bledami)
+                Destroy(hit.transform.gameObject); // niszczy japko ktore raycast udeza 
                 PlayerValues.Apples += 1; // ilość jabłeczków
                 }
 
                 if(hit.transform.tag == "Battery"  && PlayerValues.Batteries < 4)
                 {
-                Destroy(hit.transform.gameObject); // niszczy japko kture raycast udeza (hehe specjalnie tak z bledami)
+                Destroy(hit.transform.gameObject); // niszczy japko ktore raycast udeza 
                 PlayerValues.Batteries += 1; // ilość jabłeczków
                 }
                 

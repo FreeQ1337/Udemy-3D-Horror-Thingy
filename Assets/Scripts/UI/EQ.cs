@@ -56,14 +56,16 @@ public class EQ : MonoBehaviour
         }
     }
 
-    public void UseApple() // minusik na jableczka i wywoluje funkcje leczonka oraz update EQ
+    //set up to be used with inventory buttons in inspector. All of these.
+
+    public void UseApple() 
     {
         PlayerValues.Apples -=1;
         PlayerValues.HPchange(25);
         UpdateEQ();
     }
 
-    public void UseBattery() // minusik na jableczka i wywoluje funkcje leczonka oraz update EQ
+    public void UseBattery() 
     {
         PlayerValues.Batteries -=1;
         Bateryjka.fillAmount += 0.25f;
