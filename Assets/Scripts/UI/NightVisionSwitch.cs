@@ -33,7 +33,7 @@ public class NightVisionSwitch : MonoBehaviour
 
     }
 
-     IEnumerator BatteryDrain (Image ImgFill)
+     IEnumerator BatteryDrain (Image ImgFill) // code reuse later in the coroutine, bad practice i guess, will change later or sth...
     {
         while(true)
         {
